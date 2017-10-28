@@ -1,8 +1,11 @@
 #include <iostream>
 
+using namespace std;
+
 int main(){
 
-std::cout << "Test file";
-
-return 0;
+int input;
+cout << "Enter a number:";
+cin >> input;
+return (input);
 }
