@@ -7,5 +7,6 @@ int main(){
 int input;
 cout << "Enter a number:";
 cin >> input;
-return (input);
+cout << "You entered the number: " << input;
+return 0;
 }
